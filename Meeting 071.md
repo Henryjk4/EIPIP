@@ -12,6 +12,7 @@
 * Decision: Big changes in Last Call will restart the "Review ends" date
 * Hide Stagnant and Withdrawn EIPs from the EIP list
 * General consensus: Not very useful feature to hide
+
 1.5. Changes to Final EIP
 * PR-6104: Sam will merge it
 * PR-6038: General consensus - PR should not be merged. Sam will create an issue for concern regarding updating Solidity to old EIPs.
