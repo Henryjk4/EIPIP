@@ -1,5 +1,5 @@
 # EIPIP Meeting 71 Notes
-### Meeting Date/Time: 2022 - Dec. - 14 - Wednesday - 15:00 UTC
+### Meeting Date/Time: 2022 Dec 14, 2022 , 15:00 UTC
 ### Meeting Duration: 1:00:56 minutes
 ### [GitHub Agenda Page](https://github.com/ethereum-cat-herders/EIPIP/issues/198)
 ### [Audio/Video of the meeting](https://www.youtube.com/watch?v=ylDXaR31gYg)
@@ -7,20 +7,20 @@
 ### Notes: HenryJK4
 
 ## Summary
-Discuss Issues/PRs, topics
-Propose Policy: Last Call changes shall be separate from the PR to move to Final
-Decision: Big changes in Last Call will restart the "Review ends" date
-Hide Stagnant and Withdrawn EIPs from the EIP list
-General consensus: Not very useful feature to hide
-Changes to Final EIP
-PR-6104: Sam will merge it
-PR-6038: General consensus - PR should not be merged. Sam will create an issue for concern regarding updating Solidity to old EIPs.
-PR-6012: Author needs to list normative changes and non-normative changes. We should avoid adding change to big EIPs like this. Closed.
-PR-5877: Shouldn't change older EIPs for updating table. Anyway, an EIP isn't a best place to maintain a table.
-   2. Discussion continued from earlier meetings
-A Straw-man Proposal: Continue collecting feedback here
-   3. EIP Bot
-Group seems to be in favor. Will keep the issue to collect if anyone opposes to the proposal
+** 1. Discuss Issues/PRs, topics**
+* Propose Policy: Last Call changes shall be separate from the PR to move to Final
+* Decision: Big changes in Last Call will restart the "Review ends" date
+* Hide Stagnant and Withdrawn EIPs from the EIP list
+* General consensus: Not very useful feature to hide
+**Changes to Final EIP**
+* PR-6104: Sam will merge it
+* PR-6038: General consensus - PR should not be merged. Sam will create an issue for concern regarding updating Solidity to old EIPs.
+* PR-6012: Author needs to list normative changes and non-normative changes. We should avoid adding change to big EIPs like this. Closed.
+* PR-5877: Shouldn't change older EIPs for updating table. Anyway, an EIP isn't a best place to maintain a table.
+** 2. Discussion continued from earlier meetings**
+* A Straw-man Proposal: Continue collecting feedback here
+** 3. EIP Bot**
+* Group seems to be in favor. Will keep the issue to collect if anyone opposes to the proposal
 
 ## Intro
 **Pooja Ranjan**
@@ -52,7 +52,7 @@ Group seems to be in favor. Will keep the issue to collect if anyone opposes to 
 * Yes 
 
 
-**Pooja Ranjan** [1:36](https://youtu.be/ylDXaR31gYg?t=95)
+**Pooja Ranjan**
 * Hide Stagnant and Withdrawn EIPs from the EIP list ethereum/EIPs#6027 thoughts from people here.
 
 **Gcolvin**
@@ -91,7 +91,7 @@ Group seems to be in favor. Will keep the issue to collect if anyone opposes to 
 **Pooja Ranjan** 
 * All right looks like we're generally not in favor of this proposal. To hide stagnant and withdrawal VIPs from the EIP list, so we can leave a comment here. 
 
-## Changes to Final EIP
+## Changes to Final EIP [5:20](https://youtu.be/ylDXaR31gYg?t=321)
 
 **Pooja Ranjan** 
 * The next sub item is changes to final EIPs. I have found a bunch of EIPs that are already into final status. Authors have requested certain changes sometimes the original author or someone contributing from the community. I have listed all of them here the first one for example is  Update EIP-5375: Fix typo in JSON ethereum/EIPs#6104 share this in chat. Generally speaking we are not in favor of final proposal getting updated but these are available in form of pool requests. Any thoughts on what to do with the EIP’s?
@@ -201,7 +201,7 @@ Group seems to be in favor. Will keep the issue to collect if anyone opposes to 
 **Gcolvin**
 * I don't know if the author of this one wants to take that on? As trimming this one back somehow, keeping the discussion going. It's our panda here anyway is he on the call? NO he’s not so we should kick this down the road and he's here to talk about it. 
 
-**Pooja Ranjan** [17:02](https://youtu.be/ylDXaR31gYg?t=1021)
+**Pooja Ranjan**
 * Very well, and Sam is already creating an issue for updating solidity concerns. Moving onto the next pool request which is  Update EIP-721: Update link ethereum/EIPs#6012 thoughts or comments on this? This pull request is by the original author. It looks like some people are entry and some people are not. We don't have any thoughts right now I'm also trying to share these PR's so we can take a look after the call. And the last one here is.
 
 **Gcolvin**
@@ -288,7 +288,7 @@ Group seems to be in favor. Will keep the issue to collect if anyone opposes to 
 **Gcolvin**
 * That makes since. 
 
-**Pooja Ranjan** [17:50](https://youtu.be/ylDXaR31gYg?t=1672)
+**Pooja Ranjan**
 * OK there's one last discussion needed for Include Ganache private chains (5777) in EIP-155 ethereum/EIPs#5877. This is a word proposal offered by Vitalic. Replay attack protection. So the proposal is to add an additional line to Ganache GUI private chains. Yeah there's a comment in the chat but that should not go in.
 
 **Sam**
@@ -303,7 +303,7 @@ Group seems to be in favor. Will keep the issue to collect if anyone opposes to 
 **Pooja Ranjan** 
 * Any present objections from any EIP editors? For closing the PR. OK it looks like we have no objections. We have a heard consensus that they are not interested in changing the existing a EIPs. As you said this is not a good place for maintaining lists and so we will go ahead and close this one.
 
-## 2. Discussion continued from earlier meetings
+## 2. Discussion continued from earlier meetings [30:06](https://youtu.be/ylDXaR31gYg?t=1806)
 
 **Pooja Ranjan** 
 * This proposal has been discussed before.  A Straw-man Proposal https://github.com/ethereum/EIPs/commits/master/EIPS/eip-6049.md Update EIP-3475: Changing comments ethereum/EIPs#5789 Victor if you'd like to summarize your proposal? And people can share their thoughts and opinions.
@@ -395,7 +395,7 @@ Group seems to be in favor. Will keep the issue to collect if anyone opposes to 
 **Pooja Ranjan** 
 * OK we are very close to time so if anyone would like to give thought final thoughts or feedback here we don't have any pool requests. So we don't have to make any decision. However we do have thread at fellowship of Ethereum magician and you can follow the link found an agenda so people can definitely add their thoughts there. Does anyone want to give anything Final piece of feedback? Ok I think we can continue to collect more feedback. And we will revisit this discussion in future meetings and for this meeting I wanted to bring up one final issue we don't have to finish it here but we can begin.
 
-## 3. EIP Bot
+## 3. EIP Bot [53:28](https://youtu.be/ylDXaR31gYg?t=3208)
 
 **Pooja Ranjan** 
 * "Requires" section should not accept Withdrawn EIP ethereum/EIPs#6131 the Bot allows final stagnant and withdrawal EIP. My proposal here is that withdrawal EIP they be removed from there because the withdrawal EIP may not have a necessary followed through the steps of a standardized and may not be ready to be an EIP that can be considered for dependency. I have created an issue for that the issue #6131 if anyone has any thoughts or comments they’d like to add?
@@ -457,7 +457,7 @@ Group seems to be in favor. Will keep the issue to collect if anyone opposes to 
 
 ## Date and Time for the next meeting
 
-2022 - Dec. - 14 - Wednesday - 15:00 UTC
+2022 Dec 28, 2022 at 15:00 UTC
 
 ## Attendees
 
